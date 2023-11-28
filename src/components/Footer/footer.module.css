@@ -1,0 +1,42 @@
+.footer {
+    height: 140px;
+    background-color: #eee;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.content p {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+
+.content li a {
+    color: rgb(21, 20, 20);
+    text-decoration: none;
+}
+
+.content li {
+    font-size: 32px;
+    list-style-type: none;
+    
+}
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ins {
+    color: aqua;
+}

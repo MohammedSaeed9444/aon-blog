@@ -1,0 +1,34 @@
+.imgCa {
+    height: 200px;
+    background-color: bisque;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardDe {
+    color: #3b3a3a;
+    margin-top: 10px;
+}
+
+.titel {
+    font-size: 20px;
+    font-weight: bold;
+    color: #171717;
+
+}
+
+.descr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.descr a {
+    text-decoration: none;
+    color: #666;
+}

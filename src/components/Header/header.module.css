@@ -1,0 +1,30 @@
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 0.5px solid #1c1b1b59;
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+  
+.header ul {
+    gap: 24px;
+}
+  
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
