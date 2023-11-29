@@ -19,8 +19,8 @@ async function Article({params}) {
   let data = await getPost(params.id)
   return (
     <div>
+      <Header />
       <Container>
-        <Header />
         <div className={styles.head}>
           <div>
             <h1>{data.blog.title}</h1>
@@ -33,7 +33,6 @@ async function Article({params}) {
         </div>
         <div className={styles.content} dangerouslySetInnerHTML={{__html: data.blog.content_html}}></div>
       </Container>
-      <h1>{params.id}</h1>
       <Footer />
     </div>
   )

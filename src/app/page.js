@@ -28,9 +28,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Container>
         <Header />
-      </Container>
       <div className={styles.cover}>
         <div className={styles.overlay}>
           <Container>
